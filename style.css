@@ -1,0 +1,117 @@
+
+        /* --- Base Reset & Techy Vibe --- */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background-color: #050505; /* Deep black */
+            color: #ffffff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            /* Subtle techy radial glow in the background */
+            background-image: radial-gradient(circle at center, #151515 0%, #000000 100%);
+        }
+
+        /* --- Main Flexible Container --- */
+        .container {
+            width: 90%;
+            max-width: 450px;
+            text-align: center;
+            padding: 2.5rem 1.5rem;
+            background: rgba(15, 15, 15, 0.9);
+            border: 1px solid #222;
+            border-radius: 16px;
+            box-shadow: 0 0 30px rgba(255, 255, 255, 0.03);
+        }
+
+        /* --- Logo Styling --- */
+        .logo-img {
+            width: 100%;
+            max-width: 400px; 
+            height: auto;
+            margin: 0 auto 1.5rem auto;
+            display: block;
+            border-radius: 8px;
+        }
+
+        .socials {
+            font-size: 1.5rem;
+            letter-spacing: 3px;
+            margin-bottom: 1.5rem;
+            text-transform: uppercase;
+            text-shadow: 0 0 10px rgba(255, 0, 0, 0.2);
+        }
+
+        /* --- Typography --- */
+        h1 {
+            font-size: 2.2rem;
+            letter-spacing: 5px;
+            margin-bottom: 0.5rem;
+            text-transform: uppercase;
+            text-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+        }
+
+        p.tagline {
+            font-size: 0.85rem;
+            color: #888888;
+            letter-spacing: 2px;
+            margin-bottom: 2.5rem;
+            font-weight: 600;
+            text-transform: uppercase;
+        }
+
+        /* --- Sales/Tech Link Buttons --- */
+        .link-btn {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            padding: 1.2rem;
+            margin-bottom: 1.2rem;
+            background-color: transparent;
+            color: #ffffff;
+            text-decoration: none;
+            font-weight: 700;
+            font-size: 1rem;
+            letter-spacing: 1.5px;
+            border: 1px solid #333;
+            border-radius: 8px;
+            transition: all 0.3s ease;
+            text-transform: uppercase;
+        }
+
+        /* --- Hover Effects (The "Techy" Glow) --- */
+        .link-btn:hover, .link-btn:focus {
+            transform: translateY(-3px);
+            background-color: #ffffff;
+            color: #000000;
+            box-shadow: 0 5px 20px rgba(255, 255, 255, 0.4);
+           
+        }
+
+        /* Platform-specific hover colors for better UX */
+        .link-btn.shopee:hover {
+            background-color: #ffffff;
+            color: #000000;
+            box-shadow: 0 5px 20px rgba(255, 255, 255, 0.4);
+        }
+
+        .link-btn.tiktok:hover {
+            background-color: #ffffff;
+            color: #000000;
+            box-shadow: 0 5px 20px rgba(255, 255, 255, 0.4);
+        }
+
+        /* --- Footer --- */
+        .footer {
+            margin-top: 2.5rem;
+            font-size: 0.75rem;
+            color: #444;
+            letter-spacing: 1px;
+        }
